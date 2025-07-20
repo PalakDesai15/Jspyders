@@ -1,1 +1,1 @@
-ZigzagPattern
+snake

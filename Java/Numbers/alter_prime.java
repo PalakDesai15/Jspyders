@@ -16,7 +16,7 @@ class alter_prime{
             }
             if(flag){
                 c++;
-                if(c%2==0){
+                if(c%2!=0){
                     System.out.println(i);
                 }
             }

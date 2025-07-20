@@ -1,16 +1,17 @@
-import java.util.*;
 class lcm{
     public static void main(String args[]){
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the number:");
-        int a=sc.nextInt();
-        int b=sc.nextInt();
-        int n=a>b?a:b;
-        int i=n;
-        while(true){
-                if(n%a==0 && n%b==0)break;
-                n+=i;
+        int a=12,b=15;
+       int l=a>b?a:b;
+       int n=l;
+       // for(int i=1;i<=a&&i<=b;i++){
+       while(true){
+            if((n%a==0)&&(n%b==0)){
+                break;
+            }
+            n+=l;
         }
-        System.out.println(n);
+        System.out.println("The value is:"+n);
+
+        }
+        
     }
-}
